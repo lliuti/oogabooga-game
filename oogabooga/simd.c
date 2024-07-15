@@ -49,6 +49,7 @@ inline void basic_rsqrt_float32_512(float *a, float *result);
 	#error "Compiler cannot generate SSE instructions but ENABLE_SIMD was 1. Did you pass the sse flag to your compiler?"
 #endif
 
+#undef inline
 #include <immintrin.h>
 #include <intrin.h>
 

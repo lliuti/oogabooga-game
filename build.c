@@ -26,7 +26,7 @@ typedef struct Context_Extra {
 //
 
 // this is a minimal starting point for new projects. Copy & rename to get started
-#include "oogabooga/examples/minimal_game_loop.c"
+// #include "oogabooga/examples/minimal_game_loop.c"
 
 // #include "oogabooga/examples/text_rendering.c"
 // #include "oogabooga/examples/custom_logger.c"
@@ -34,3 +34,5 @@ typedef struct Context_Extra {
 
 // This is where you swap in your own project!
 // #include "entry_yourepicgamename.c"
+
+#include "amazing_bullet_hell_game.c"
